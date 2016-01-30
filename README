@@ -1,0 +1,37 @@
+LibExtractor Tool
+
+Breif:
+------
+LibExtractor Tool is a general purpose apk tool which displays the libraries
+that are present in the apk package with a formatted output.
+
+
+Features:
+---------
+1. List all the library names in the apk
+2. Parses the library and displays the architecture type of the library
+3. Displays with a color full output
+4. Support for multiple files at one shot
+
+3rd Party Libraries:
+--------------------
+LibExtractor Tool uses minizip library which helps in parsing the contents
+of a apk file and helps in displaying the results.
+For more help refer: http://www.winimage.com/zLibDll/minizip.html
+
+
+How to compile:
+---------------
+1. make
+
+How to run:
+-----------
+  $LibExtractor file_name.apk
+
+Color Format:
+-------------
+1. All error will print in RED
+2. All library names will print in WHITE
+3. All archtypes will print in CYAN
+4. Total library count will print in YELLOW
+5. Filename will print in BLUE

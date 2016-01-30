@@ -1,0 +1,6 @@
+2015-Jan-7  Vijaya Sekhar M  <hello@mvijayasekhar.me>
+
+* Printing architechture by extracting ELF header instead of taking from 
+  directory name
+* Added doxygen commenting for functions 
+
